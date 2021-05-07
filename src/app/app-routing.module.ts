@@ -5,7 +5,7 @@ import { PiggyBankComponent } from './components/piggy-bank/piggy-bank.component
 
 const routes: Routes = [
   {path:'piggy-bank', component: PiggyBankComponent},
-  {path:'form', component: FormComponent},
+  {path:'contact', component: FormComponent},
   {path:'**',pathMatch:'full', redirectTo: '/piggy-bank' }
 ];
 
