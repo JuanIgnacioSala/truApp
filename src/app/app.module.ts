@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { FormComponent } from './components/form/form.component';
+import { PiggyBankComponent } from './components/piggy-bank/piggy-bank.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
     FooterComponent,
-    FormComponent
+    FormComponent,
+    PiggyBankComponent
   ],
   imports: [
     BrowserModule,
