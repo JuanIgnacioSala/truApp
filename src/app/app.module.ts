@@ -7,6 +7,7 @@ import { NavbarComponent } from './shared/navbar/navbar.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { FormComponent } from './components/form/form.component';
 import { PiggyBankComponent } from './components/piggy-bank/piggy-bank.component';
+import {  ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,8 @@ import { PiggyBankComponent } from './components/piggy-bank/piggy-bank.component
   ],
   imports: [
     BrowserModule,
+    ReactiveFormsModule,
+    
     AppRoutingModule
   ],
   providers: [],
